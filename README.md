@@ -1,3 +1,3 @@
-- phish.csv - a collection of phishing emails
+- phish.csv – A dataset containing a collection of phishing emails. It serves as the input data for training the model, helping it learn patterns associated with phishing text.
 - train.py – A script used to train a model using a dataset. It includes loading the dataset, tokenizing the text, initializing a pre-trained language model, setting up training parameters, and fine-tuning the model.
 - response.py – A script used to prompt the trained model. It loads the fine-tuned model and tokenizer, takes user input, and outputs responses.
